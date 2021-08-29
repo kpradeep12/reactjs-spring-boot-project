@@ -17,7 +17,7 @@ This project is pre-configured with below libraries
 
 * Clone this repo.
 * Rename project folder name to what ever the new project you want.
-* Edit pom.xml by providing proper project name in \<artifactId> and \<name>
+* Edit pom.xml, update \<artifactId> and \<name> with proper project names.
 
 ### Contents of this project
 - **pom.xml**: Maven POM file
@@ -26,14 +26,27 @@ This project is pre-configured with below libraries
 
 ### Compile and Run project
 
-`mvn clean compile`
+`mvnw clean compile`
 
 Builds Spring and ReactJs files
 
-`mvn spring-boot:run`
+`mvnw spring-boot:run`
 
 Runs application. Spring uses default 8080 port and ReactJS uses 3000 port.
 
 
 Access application at http://localhost:3000
+
+
+### Package application
+
+`mnvw install`
+
+Creates a Jar file in target folder, this contains both backend and front end.
+
+### Run the application
+
+Go into target folder and execute below command to run the application
+
+`java -jar <app>.jar`
 
