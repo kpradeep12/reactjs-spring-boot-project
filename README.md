@@ -42,6 +42,7 @@ Access application at http://localhost:3000
 
 `mnvw install`
 
+Builds Spring and React JS applications, copies UI related files into target/classes/public folder.
 Creates a Jar file in target folder, this contains both backend and front end.
 
 ### Run the application
